@@ -97,24 +97,6 @@ namespace OperacionesCSV
             }
         }
 
-        //private void EditButton_Click(object sender, EventArgs e)
-        //{
-        //    dataGridView.ReadOnly = false;
-        //    dataGridView.AllowUserToAddRows = true;
-        //}
-
-        //private void AddRowButton_Click(object sender, EventArgs e)
-        //{
-        //    DataRow newRow = dataTable.NewRow();
-        //    dataTable.Rows.Add(newRow);
-        //}
-
-        //private void UndoButton_Click(object sender, EventArgs e)
-        //{
-        //    dataTable = originalDataTable.Copy();
-        //    dataGridView.DataSource = dataTable;
-        //}
-
         private void btnAbrir_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
