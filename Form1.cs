@@ -22,30 +22,6 @@ namespace OperacionesCSV
             InitializeComponent();
         }
 
-        //private void OpenFileButton_Click(object sender, EventArgs e)
-        //{
-        //    OpenFileDialog openFileDialog = new OpenFileDialog();
-        //    openFileDialog.Filter = "Archivos CSV (*.csv)|*.csv|Todos los archivos (*.*)|*.*";
-        //    openFileDialog.FilterIndex = 1;
-
-        //    if (openFileDialog.ShowDialog() == DialogResult.OK)
-        //    {
-        //        currentFilePath = openFileDialog.FileName;
-        //        LoadCsvFile(currentFilePath);
-        //    }
-        //}
-
-        //private void SaveFileButton_Click(object sender, EventArgs e)
-        //{
-        //    if (currentFilePath != null)
-        //    {
-        //        SaveCsvFile(currentFilePath);
-        //    }
-        //    else
-        //    {
-        //        SaveAsFile();
-        //    }
-        //}
 
         private void SaveAsFile()
         {
